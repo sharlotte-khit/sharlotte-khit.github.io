@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/BookVault-v1/static/css/main.6e4b25e3.css",
-    "main.js": "/BookVault-v1/static/js/main.dfec4d46.js",
-    "static/js/453.1de4e37b.chunk.js": "/BookVault-v1/static/js/453.1de4e37b.chunk.js",
-    "static/media/library-img.jpg": "/BookVault-v1/static/media/library-img.1e63737ead7b17b08e57.jpg",
-    "static/media/about-img.jpg": "/BookVault-v1/static/media/about-img.250ddb45b565a7cfa4c4.jpg",
-    "static/media/logo.png": "/BookVault-v1/static/media/logo.127dea3a1602f348e5eb.png",
-    "static/media/cover-img.png": "/BookVault-v1/static/media/cover-img.9e1046d475773cbb1b12.png",
-    "index.html": "/BookVault-v1/index.html",
-    "main.6e4b25e3.css.map": "/BookVault-v1/static/css/main.6e4b25e3.css.map",
-    "main.dfec4d46.js.map": "/BookVault-v1/static/js/main.dfec4d46.js.map",
-    "453.1de4e37b.chunk.js.map": "/BookVault-v1/static/js/453.1de4e37b.chunk.js.map"
+    "main.css": "/BookVault-v1/bookvault-app/static/css/main.56a114da.css",
+    "main.js": "/BookVault-v1/bookvault-app/static/js/main.8dfcf31f.js",
+    "static/js/453.1de4e37b.chunk.js": "/BookVault-v1/bookvault-app/static/js/453.1de4e37b.chunk.js",
+    "static/media/library-img.jpg": "/BookVault-v1/bookvault-app/static/media/library-img.1e63737ead7b17b08e57.jpg",
+    "static/media/about-img.jpg": "/BookVault-v1/bookvault-app/static/media/about-img.250ddb45b565a7cfa4c4.jpg",
+    "static/media/logo.png": "/BookVault-v1/bookvault-app/static/media/logo.127dea3a1602f348e5eb.png",
+    "static/media/cover-img.png": "/BookVault-v1/bookvault-app/static/media/cover-img.9e1046d475773cbb1b12.png",
+    "index.html": "/BookVault-v1/bookvault-app/index.html",
+    "main.56a114da.css.map": "/BookVault-v1/bookvault-app/static/css/main.56a114da.css.map",
+    "main.8dfcf31f.js.map": "/BookVault-v1/bookvault-app/static/js/main.8dfcf31f.js.map",
+    "453.1de4e37b.chunk.js.map": "/BookVault-v1/bookvault-app/static/js/453.1de4e37b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e4b25e3.css",
-    "static/js/main.dfec4d46.js"
+    "static/css/main.56a114da.css",
+    "static/js/main.8dfcf31f.js"
   ]
 }

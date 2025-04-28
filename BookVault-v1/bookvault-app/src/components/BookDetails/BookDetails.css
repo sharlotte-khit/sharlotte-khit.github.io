@@ -1,0 +1,143 @@
+.book-details {
+    padding: 4rem 2rem;
+  }
+  
+  .back-button {
+    margin-bottom: 2rem;
+  }
+  
+  .btn-back {
+    background: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.6rem 1.2rem;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-back:hover {
+    background: var(--secondary-color);
+  }
+  
+  .details-grid {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 2rem;
+    align-items: start;
+    position: relative;
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .cover-wrapper {
+    width: 100%;
+    background: var(--light-color);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 0.5rem;
+  }
+  
+  .cover-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .book-title {
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
+    font-weight: 700;
+    color: var(--medium-color);
+    margin-bottom: 0.2rem;
+  }
+  
+  .book-author {
+    font-size: clamp(1.6rem, 3vw, 2rem);
+    color: var(--dark-color);
+    margin-bottom: 0.2rem;
+  }
+  
+  .book-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .meta-label {
+    font-weight: 600;
+    color: var(--dark-color);
+    font-size: 1.6rem;
+  }
+  
+  .meta-value {
+    color: var(--dark-color);
+    font-size: 1.6rem;
+  }
+  
+  .ratings {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.6rem;
+    color: var(--dark-color);
+    margin-top: 0.2rem;
+  }
+  
+  .star {
+    color: var(--light-color);
+    font-size: 1.8rem;
+  }
+  
+  .star.full {
+    color: var(--primary-color);
+  }
+  
+  .star.half {
+    color: var(--primary-color);
+    opacity: 0.5;
+  }
+  
+  .rating-number,
+  .rating-count {
+    font-size: 1.6rem;
+    color: var(--dark-color);
+    margin-left: 0.2rem;
+  }
+  
+  .description {
+    font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+    line-height: 1.5;
+    color: var(--dark-color);
+  }
+  
+  @media (max-width: 768px) {
+    .details-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .left-column {
+      align-items: center;
+    }
+  
+    .cover-wrapper {
+      max-width: 200px;
+    }
+  }
+  

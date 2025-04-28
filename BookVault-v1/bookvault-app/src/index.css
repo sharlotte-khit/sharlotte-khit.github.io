@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #84A98C;
+  --secondary-color: #52796F;
+  --dark-color: #2F3E46;
+  --medium-color: #486158;
+  --light-color: #CAD2C5;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --light-black-color: #717171;
+  --transition: all 300ms ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  color: var(--dark-color);
+  background-color: var(--white-color);
+  line-height: 1.6;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  border: none;
+  outline: 0;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  display: block;
+}
+input {
+  border: none;
+  outline: 0;
+  font-family: inherit;
+  font-size: 1.6rem;
+}
+
+/* Text */
+.text-black {
+  color: var(--black-color);
+}
+.text-white {
+  color: var(--white-color);
+}
+.text-light-black {
+  color: var(--light-black-color);
+}
+.text-primary {
+  color: var(--primary-color);
+}
+.text-secondary {
+  color: var(--secondary-color);
+}
+.text-dark {
+  color: var(--dark-color);
+}
+.text-medium {
+  color: var(--medium-color);
+}
+.text-light {
+  color: var(--light-color);
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-center {
+  text-align: center;
+}
+.text-italic {
+  font-style: italic;
+}
+
+/* Font Weights */
+.fw-3 { font-weight: 300; }
+.fw-4 { font-weight: 400; }
+.fw-5 { font-weight: 500; }
+.fw-6 { font-weight: 600; }
+.fw-7 { font-weight: 700; }
+.fw-8 { font-weight: 800; }
+.fw-9 { font-weight: 900; }
+
+/* Font Sizes */
+.fs-15 { font-size: 1.5rem; }
+.fs-16 { font-size: 1.6rem; }
+.fs-17 { font-size: 1.7rem; }
+.fs-18 { font-size: 1.8rem; }
+.fs-19 { font-size: 1.9rem; }
+.fs-20 { font-size: 2rem; }
+.fs-22 { font-size: 2.2rem; }
+.fs-24 { font-size: 2.4rem; }
+.fs-26 { font-size: 2.6rem; }
+
+/* Letter Spacing */
+.ls-1 { letter-spacing: 1px; }
+.ls-2 { letter-spacing: 2px; }
+
+/* Layout */
+.flex { display: flex; align-items: center; }
+.flex-column { flex-direction: column; }
+.flex-c { justify-content: center; }
+.flex-sb { justify-content: space-between; }
+.grid { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+.container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+
+/* Buttons, Pagination, etc. */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.pagination button {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background: var(--white-color);
+  transition: var(--transition);
+}
+.pagination button:hover {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+}

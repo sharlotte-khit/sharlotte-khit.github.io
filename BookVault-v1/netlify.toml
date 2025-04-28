@@ -1,7 +1,12 @@
 [build]
-  base = "BookVault-v1/bookvault-app"
+  base = "bookvault-app"
   command = "npm install && npm run build"
   publish = "build"
+
+[build.environment]
+  CI = "false"
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
 
 [[redirects]]
   from = "/*"

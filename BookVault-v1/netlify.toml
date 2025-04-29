@@ -1,5 +1,5 @@
 [build]
-  base = "bookvault-app"
+  base = "bookvault-v1/bookvault-app"
   command = "npm install && npm run build"
   publish = "build"
 

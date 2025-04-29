@@ -1,5 +1,5 @@
 [build]
-  base = "bookvault-v1/bookvault-app"
+  base = "BookVault-v1/bookvault-app"
   command = "npm run build"
   publish = "build"
 

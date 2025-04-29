@@ -7,7 +7,7 @@ import coverImg from '../../images/cover-img.png';
 import './BookList.css';
 
 const BookList = () => {
-  const { books, loading, resultTitle, error } = useGlobalContext();
+  const { books, loading, error } = useGlobalContext();
   const [currentPage, setCurrentPage] = useState(1);
   const [sortKey, setSortKey] = useState("");
   const booksPerPage = 12;

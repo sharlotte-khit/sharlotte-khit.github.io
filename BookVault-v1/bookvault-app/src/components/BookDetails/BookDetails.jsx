@@ -13,15 +13,15 @@ const BookDetails = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const requestOptions = { 
-    method: "GET", 
-    headers: {
-      'Accept': 'application/json'
-    },
-    credentials: 'omit'
-  };
-
   useEffect(() => {
+    const requestOptions = { 
+      method: "GET", 
+      headers: {
+        'Accept': 'application/json'
+      },
+      credentials: 'omit'
+    };
+
     const fetchData = async () => {
       try {
         setLoading(true);

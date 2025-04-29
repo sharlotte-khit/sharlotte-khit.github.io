@@ -1,5 +1,5 @@
 // Import React, Hooks
-import React, { useState, useContext, useEffect, useCallback, useMemo } from "react";
+import React, { useState, useContext, useCallback, useMemo } from "react";
 
 const BASE_URL = "https://openlibrary.org/search.json";
 

@@ -1,0 +1,67 @@
+.search-form {
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.search-form-elem {
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+    background-color: rgba(51, 100, 88, 0.8);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 60px; 
+}
+
+.search-form-elem .form-control {
+    font-size: 2rem;
+    padding: 1rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--white-color);
+    flex-grow: 1;
+    min-width: 0;
+    width: 100%; 
+    pointer-events: auto; 
+    font-style: italic;
+}
+
+.search-form-elem .form-control::placeholder {
+    font-size: 1.8rem;
+    color: var(--white-color);
+    opacity: 0.8; 
+}
+
+
+.search-form-elem .form-control:focus {
+    border-bottom: 2px solid var(--white-color);
+}
+
+.search-form-wrapper {
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+}
+  
+
+@keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+}
+
+
+.booklist-search-form .search-form-elem {
+  background-color: var(--white-color);
+  border: 2px solid var(--primary-color);
+}
+
+.booklist-search-form .form-control {
+  color: var(--medium-color);
+}
+
+.booklist-search-form .form-control::placeholder {
+  color: var(--medium-color);
+  opacity: 0.7;
+}
